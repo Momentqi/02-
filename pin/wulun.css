@@ -1,0 +1,70 @@
+.w{
+    width: 1200px;
+    margin: 50px auto;
+}
+.focus{
+    position: relative;
+    float: left;
+    width: 720px;
+    height: 455px;
+    background-color: purple;
+    overflow: hidden;
+}
+.focus ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+}
+.focus ul li{
+    float: left;
+}
+.focus img{
+    width: 720px;
+    height: 455px;
+}
+.arrow-l,
+.arrow-r{
+    position: absolute;
+    display: none;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    color: #fff;
+    line-height: 40px;
+    background-color: rgba(0,0,0,.3);
+    text-align: center;
+    font-family: 'icomoon';
+    font-size: 18px;
+    z-index: 2;
+}
+.arrow-l{
+    left: 0;
+    border-radius: 0 26px 26px 0;
+}
+.arrow-r{
+    right: 0;
+    border-radius: 26px 0 0 26px;
+}
+.circle{
+    position: absolute;
+    left:20px;
+    bottom: 20px;
+    width: 20%;
+    height: 16px;
+    border-radius: 10px;
+	background:rgba(255,255,255,.5); 
+     display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.circle li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background:rgba(255,255,255,.7);
+}
+.circle .current{
+    background: pink;
+}
